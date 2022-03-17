@@ -1,0 +1,160 @@
+body {
+    background-color: lightgray;
+}
+
+#masthead {
+    background-image: url('../img/bg-masthead.jpg');
+    background-size: cover;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#masthead > div {
+    margin-top: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+#masthead > div > img {
+    height: 225px;
+}
+
+#bloco-grid {
+    border-style: solid;
+    border-width: 1pt;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.col-lg-4 {
+    width: 33%;
+}
+
+.features-icons-item {
+    height: 150px;
+    border-style: solid;
+    border-width: 1pt;
+    border-radius: 5px;
+    border-color: #d9534f;
+}
+
+.features-icons-icon > i {
+    font-size: 50px;
+}
+
+@media screen and (min-width: 100px) {
+    .features-icons-item > p {
+        font-size: 6px;
+    }
+  }
+
+@media screen and (min-width: 460px) {
+    .features-icons-item > p {
+        font-size: 12px;
+    }
+  }
+
+@media screen and (min-width: 620px) {
+    .features-icons-item > p {
+        font-size: 18px;
+    }
+  }
+
+@media screen and (min-width: 1000px) {
+    .features-icons-item > p {
+        font-size: 10px;
+    }
+  }
+
+#sobre {
+    background-image: url('../img/bg-masthead.jpg');
+    background-size: cover;
+}
+
+.col-lg-6 {
+    text-align: center;
+}
+
+#bloco-txt {
+    text-align: justify;
+    font-size: 16px;
+}
+
+#bloco-img-1 {
+    background-image: url('../img/sobradinho.jpg');
+    background-size: cover;
+}
+
+#bloco-img-2 {
+    background-image: url('../img/sobradinho2.jpg');
+    background-size: cover;
+}
+
+.footer {
+    background-image: url('../img/bg-masthead.jpg');
+    background-size: cover;
+}
+
+aside {
+    width: 70%;
+    margin: auto;
+    box-shadow: 0px 0px 10px black;
+    padding: 10px;
+    text-align: justify;
+}
+
+aside > section {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+aside > section > h2 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url('../img/bg-masthead.jpg');
+    background-size: cover;
+    color: white;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+aside > section > h3 {
+    text-align: center;
+}
+
+aside > section > p {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+aside > section > ul {
+    list-style-position: inside;
+    list-style-type: "\2714\00A0\00A0";
+    columns: 2;
+    font-weight: bold;
+}
+
+aside > p {
+    margin-left: 10px; 
+}
+
+.btn-voltar {
+    background-image: url('../img/bg-masthead.jpg');
+    background-size: cover;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    height: 45px;
+    width: 110px;
+}
